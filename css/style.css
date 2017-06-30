@@ -1,0 +1,281 @@
+* {
+  margin: 0%;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+body {
+  background-color: #4c8a99;
+}
+
+header {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header nav .logo {
+  padding: 8px 11px;
+  float: left;
+  width: 210px;
+}
+
+header nav .menu {
+  padding: 13px 11px;
+  background-color: rgba(255, 255, 255, 0.27);
+  width: 50px;
+  float: right;
+}
+
+header nav {
+  background-color: rgba(155, 215, 229, 0.31);
+  display: inline-block;
+  width: 100%;
+  padding: 0 10% 0 10%;
+}
+
+@media all and (max-width: 346px){
+  header nav {
+    padding: 0 5% 0 5%;
+  }
+}
+
+header .search1 {
+  margin-right: 40%;
+  text-align: center;
+  padding: 160px 0 160px 0;
+  font-size: 1.7em;
+}
+
+header .s_text {
+  color: white;
+}
+  /* search */
+
+  .pole {
+    padding-top: 26px;
+  }
+
+  .search {
+    width: 100%;
+    position: relative;
+  }
+
+  .search input {
+    border: none;
+  }
+
+  /* стили для поля ввода */
+  .search .input {
+    font-size: 0.8em;
+    width: 45%;
+    padding: 8px 45px 9px 15px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #EEE;
+    color: #555;
+    outline: none;
+  }
+  .search .input:focus {
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2), inset 0 1px 2px rgba(0,0,0,0.4);
+    background: #E8E8E8;
+    color: #333;
+  }
+
+  .search .submit {
+    position: absolute;
+    top: 0;
+    right: 27.5%;
+    width: 50px;
+    height: 100%;
+    cursor: pointer;
+    background: url(https://lh4.googleusercontent.com/-b-5aBxcxarY/UAfFW9lVyjI/AAAAAAAABUg/gQtEXuPuIds/s13/go.png) 50% no-repeat;
+    opacity: 0.5;
+    outline: none;
+  }
+  .search .submit:hover {
+    opacity: 0.8;
+  }
+
+  @media all and (max-width: 1100px){
+    header .search1 {
+      margin-right: 40%;
+    }
+
+    .search .input {
+      width: 60%;
+    }
+    .search .submit {
+      right: 20%;
+    }
+  }
+
+  @media all and (max-width: 920px){
+    header .search1 {
+      margin-right: 0%;
+    }
+
+    .search .input {
+      width: 50%;
+    }
+    .search .submit {
+      right: 25%;
+    }
+  }
+
+  @media all and (max-width: 650px){
+    .search .input {
+      width: 60%;
+    }
+    .search .submit {
+      right: 20%;
+    }
+  }
+
+  @media all and (max-width: 500px){
+    .search .input {
+      width: 80%;
+    }
+    .search .submit {
+      right: 10%;
+    }
+  }
+
+  @media all and (max-width: 375px){
+    header .search1 {
+      font-size: 1.2em;
+    }
+  }
+
+  /* search */
+
+/* header */
+
+/* acc */
+
+  .account {
+    background-color: #fff;
+    text-align: center;
+    font-size: 1.8em;
+    color: #8b8b8b;
+    padding: 40px 0;
+    font-weight: 300;
+    border-bottom: 3px solid #e3e3e3;
+  }
+
+  .account a{
+    background-color: #8fcddc;
+    text-decoration: none;
+    color: #fff;
+    padding: 18px 32px;
+  }
+
+  .account a:hover{
+    background-color: #77b8c7;
+  }
+
+  .account a:active{
+    background-color: #4591a3;
+  }
+
+  .account span {
+    padding: 18px 32px 18px 0;
+  }
+
+  @media all and (max-width: 620px){
+    .account {
+      font-size: 1.2em;
+      padding: 30px 0;
+    }
+
+    .account a{
+      padding: 10px 22px;
+    }
+    .account span {
+      padding: 10px 22px 10px 0;
+    }
+  }
+
+  @media all and (max-width: 420px){
+    .account {
+      font-size: 0.9em;
+      padding: 30px 0;
+    }
+
+    .account a{
+      padding: 5px 11px;
+    }
+    .account span {
+      padding: 5px 11px 5px 0;
+    }
+  }
+
+/* acc */
+
+/* categories */
+
+  .categories {
+    background-color: #fff;
+  }
+
+  .categories p {
+    text-align: center;
+    padding: 36px 0;
+    font-size: 1.5em;
+    color: #636363;
+  }
+
+  .categories .all_cat {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 0 60px 0;
+  }
+
+  .categories .all_cat ul {
+    padding: 10px 28px 10px 28px;
+    align-items: center;
+    list-style: none;
+  }
+
+  .categories .all_cat ul li{
+    font-size: 1.2em;
+  }
+
+  .categories .all_cat ul li a{
+    color: #B9B9B9;
+    text-decoration: none;
+  }
+
+  .categories .all_cat ul li a:hover{
+    color: #A1A1A1;
+  }
+
+  @media all and (max-width: 1136px){
+    .categories .all_cat ul {
+      padding: 10px 15px 10px 15px;
+    }
+  }
+
+/* categories */
+
+/* footer */
+
+  footer {
+    background-color: #4c8a99;
+  }
+
+  footer p {
+    text-align: center;
+    padding: 15px 0 15px 0;
+    font-size: 1.2em;
+    color: #b4cad0;
+  }
+
+/* footer */
